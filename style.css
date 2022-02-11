@@ -1,0 +1,64 @@
+h1
+{
+    margin-bottom: 0;
+}
+
+h1>div
+{
+    font-weight: bold;
+    letter-spacing: 4px;
+    background-color: rgb(128, 128, 128, 0.2);
+    padding: 5px 450px;
+}
+
+p>img
+{
+    border: 3px solid black;
+}
+
+table
+{
+    background-color: rgba(208, 233, 68, 0.2);
+    border: 0 solid;
+    border-radius: 5px;
+}
+
+
+/* CENTER CONTENT */
+
+.photo, h1>div, #citation, #oneSentence, table
+{
+    width: fit-content;
+    margin: auto;
+}
+
+/* CLASS */
+
+.containerUl
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+
+/* ID */
+
+#oneSentence
+{
+    margin-bottom: 20px;
+}
+
+#citation
+{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    margin: 20px auto;
+}
+
+#tldr
+{
+    font-size: initial;
+    font-weight: bold;
+}
