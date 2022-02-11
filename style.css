@@ -39,17 +39,27 @@ table
 
 /* CLASS */
 
+
 .containerUl
 {
     display: flex;
     justify-content: center;
     margin-left: 250px;
+    margin-bottom: 20px;
 }
 
-.tldrContent
+
+.story
 {
+    width: fit-content;
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: rgb(255, 165, 0, 0.7);
+    padding: 10px 30px 10px 20px;
     margin-bottom: 30px;
 }
+
+
 
 
 /* ID */
